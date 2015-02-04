@@ -1,0 +1,126 @@
+html, body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #efeff4;
+}
+
+a:link.test {
+    color: #000;
+    text-decoration: none;
+}
+
+a:visited.test {
+    color: #000;
+    text-decoration: none;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+#container {
+	margin-left: auto;
+    margin-right: auto; 
+	width: 100%;
+	padding: 0px
+}
+
+#contentSingle {
+	padding: 10px;
+	margin-left: 0px;
+	margin-top: 10px;
+	border-top: 0.5px solid #c4c4c6 !important;
+    border-bottom: 0.5px solid #c4c4c6 !important;
+    background-color: #fff !important;
+}
+
+#contentBottom {
+	padding: 10px;
+	margin-left: 0px;
+    border-bottom: 0.5px solid #c4c4c6 !important;
+    background-color: #fff !important;
+}
+
+#contentTop {
+	padding: 15px;
+	margin-left: 0px;
+	margin-top: 10px;
+    border-top: 0.5px solid #c4c4c6 !important;
+    background-color: #fff !important;
+}
+
+#compatibileDiv {
+	padding: 10px;
+	margin-left: 0px;
+	margin-top: 10px;
+    border-bottom: : 0.5px solid #c4c4c6 !important;
+    border-top: 0.5px solid #c4c4c6 !important;
+    background-color: #99eeb2 !important;
+}
+
+#notCompatibileDiv {
+	padding: 10px;
+	margin-left: 0px;
+	margin-top: 10px;
+    border-bottom: : 1px solid #c4c4c6 !important;
+    border-top: 1px solid #c4c4c6 !important;
+    background-color: #ebb5b5 !important;
+}
+
+h2.repoDescriptionHeader {
+	text-align: center;
+	display: inline;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+h2.repoScreenshotsHeader {
+	font-size: 17px;
+	text-align: center;
+	display: inline;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+h3.textHeaderLabel {
+	font-size: 17px;
+	font-weight: 400;
+	text-align: center;
+	display: inline;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+hr { display: block; height: 0.5px;
+    border: 0; border-top: 0.5px solid #c4c4c6 !important;;
+    margin: 1em 0; padding: 0; }
+
+img.repoDescription{
+	height: 58px;
+	width: 58px;
+	vertical-align:middle;
+}
+
+img.repoScreenshots{
+	height: 28px;
+	width: 28px;
+	vertical-align:middle;
+}
+
+ul,li { 
+	list-style-type: none;
+	list-style-position:inside;
+	margin:0;
+	padding:0; 
+}
+
+li.buttons {
+	 border: 1px solid black;
+}

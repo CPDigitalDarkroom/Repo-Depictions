@@ -1,0 +1,119 @@
+html, body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #efeff4;
+}
+
+a:link.test {
+    color: #000;
+    text-decoration: none;
+}
+
+a:visited.test {
+    color: #000;
+    text-decoration: none;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+#container {
+	margin-left: auto;
+    margin-right: auto; 
+	width: 300px;
+	padding: 0px
+}
+
+#packageHeader {
+	padding: 10px;
+	margin-left: 0px;
+	margin-top: 10px;
+    border: 1px solid #a8a8a9 !important;;
+    background-color: #fff !important;;
+    
+    -webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#compatibileDiv {
+	padding: 10px;
+	margin-left: 0px;
+	margin-top: 10px;
+    border: 1px solid #a8a8a9 !important;;
+    background-color: #99eeb2 !important;;
+    
+    -webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#notCompatibileDiv {
+	padding: 10px;
+	margin-left: 0px;
+	margin-top: 10px;
+    border: 1px solid #a8a8a9 !important;;
+    background-color: #ebb5b5 !important;;
+    
+    -webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+h2.repoDescriptionHeader {
+	text-align: center;
+	display: inline;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+h2.repoScreenshotsHeader {
+	font-size: 17px;
+	text-align: center;
+	display: inline;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+h3.textHeaderLabel {
+	font-size: 17px;
+	text-align: center;
+	display: inline;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+hr { display: block; height: 1px;
+    border: 0; border-top: 1px solid #a8a8a9 !important;;
+    margin: 1em 0; padding: 0; }
+
+img.repoDescription{
+	height: 58px;
+	width: 58px;
+	vertical-align:middle;
+}
+
+img.repoScreenshots{
+	height: 28px;
+	width: 28px;
+	vertical-align:middle;
+}
+
+ul,li { 
+	list-style-type: none;
+	list-style-position:inside;
+	margin:0;
+	padding:0; 
+}
+
+li.buttons {
+	 border: 1px solid black;
+}
